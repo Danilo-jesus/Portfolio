@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Pangolin&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-1{
+    background-image: url(Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabeçalho h1{
+    font-family: "Jockey One";
+    color: #fff;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.cabeçalho span{
+    color: #fb0a0a;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 50px;
+
+}
+
+.cabeçalho-link a{
+    font-family: "Jockey One";
+    color: #fff;
+    font-size: 25px;
+    
+}
+
+.Container-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+.Container-main img{
+    width: 250px;
+    height: auto;
+}
+
+.Container-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.Container-title h2{
+
+    font-family: "IM Fell English";
+    color: #fb0a0a;
+    font-size: 80px;
+    font-weight: normal;
+    
+
+}
+
+.Container-title h4{
+    font-size: 25px;
+    color: #fff;
+    font-family: "Jockey One";
+    font-weight: normal;
+    margin-bottom: 150px;
+
+}
+
+.Container-2{
+    display: flex;
+    padding: 50px;
+    background-color: #1d1827;
+}
+
+.section-2 img{
+    width: 500px;
+    height: auto;
+
+}
+
+.section-title h1{
+    font-family: "Jockey One";
+    color: #fff;
+    font-weight: normal;
+    font-size: 65px;
+    margin-left: 25px; 
+}
+
+.section-title hr{
+    width: 100px;
+    margin-left: 40px;
+    border: solid 1px red;
+
+
+}
+
+.section-title p{
+    color: #fff;
+    font-family:"Pangolin" ;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.Border-solid{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: solid 1px red;
+    padding: 10px;
+    width: 700px;
+    border-radius: 8px;
+}
+
+.informação-1 p{
+    padding: 15px;
+}
+
+.informação-2 p{
+    padding: 15px;
+}
+
+.Container-3{
+    padding: 55px;
+    background-color: #16131c;
+}
+
+.Container-3 h4{
+    color: #fb0a0a;
+    font-size: 30px;
+    font-family:"Pangolin" ;
+    font-weight: normal;
+    margin-top: 25px;
+    margin-left: 100px;
+    
+}
+
+.Container-3 h1{
+    font-family:"Pangolin" ;
+    font-weight: normal;
+    font-size: 50px;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 100px;
+
+}
+
+.Container-3 hr{
+    width: 105px;
+    margin-left: 100px;
+    border: solid 1px red;
+    margin-top: 5px;
+}
+
+.Section-3{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.Card-border{
+    border: solid 1px red;
+    border-radius: 5px;
+    padding: 35px;
+}
+
+.Card-border img{
+    width: 70px;
+    height: auto;
+}
+
+.Card-border h3{
+    color: #fff;
+    font-family:"Pangolin" ;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.Card-border p{
+    color: #fff;
+    font-family:"Pangolin" ;
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 17px;
+
+}
